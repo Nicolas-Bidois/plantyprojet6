@@ -318,7 +318,9 @@ main header {
 }
 
 @media only screen and (max-width: 767px){  
- 
+    .menu li {
+        padding: 0;
+     }
         html, body {
             width: 100%;
             overflow-x: hidden;
