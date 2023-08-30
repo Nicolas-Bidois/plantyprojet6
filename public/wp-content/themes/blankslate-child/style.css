@@ -1,0 +1,418 @@
+
+.footer {
+    display: flex;
+    justify-content: center;
+}
+.header_position {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.menu {
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.menu li {
+    padding: 11px 20px 0px 0px;
+}
+.menu-item-12 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 236px;
+    height: 80px;
+    background-color: #DC9F96;
+}
+.menu-item-12 a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    padding-left: 20px;
+}
+.menu-item-10 a {
+    display: flex;
+    color: black;
+    text-decoration: none;
+    padding: 0px 30px 0px 30px;
+}
+.menu-item-11 a {
+    display: flex;
+    color: black;
+    text-decoration: none;
+}
+.logo {
+    padding: 11px 0px 0px 37px;
+    display: flex;
+    align-items: center;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+}
+.menu-item-14 a {
+    display: flex;
+    color: black;
+    text-decoration: none;   
+}
+.ombre {
+    height: 40px;
+    width: 100%;
+    background-color: #e3d9d0;
+    border-radius: 0 0 60% 60%;
+    box-shadow: 0px 10px 0px #e3d9d018;
+}
+.ombre2 {
+    height: 40px;
+    width: 100%;
+    background-color: #e3d9d0;
+    border-radius: 0 0 60% 60%;
+    box-shadow: 0 10px 0 white;
+}
+.ombre3 {
+    height: 40px;
+    width: 100%;
+    background-color: #E3D9D0;
+    border-radius: 0 0 50% 50%;
+    box-shadow: 0 20px 0 white;
+}
+.wp-block-button__link {
+    background-color: #e3d9d0;
+}
+.wp-container-1 {
+    position: relative;
+    width: auto;
+    height: 550px;
+}
+.wp-image-422 {
+    position: absolute;
+    left: 25%;
+    top: 5%;
+}
+.wp-image-363 {
+    position: absolute;
+    top: 175%;
+    left: 32%;
+    z-index: 1;
+}
+.wpcf7-form {
+    position: relative;
+    z-index: 2;
+}
+  .wpcf7::before {
+    content: '';
+    position: absolute;
+    top: 170%;
+    left: 30%;
+    background-image: url('http://planty.local/wp-content/uploads/2023/07/Group-16-2.svg');
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+.t1 {
+    font-weight: 800;
+    font-size: 38px;
+}
+.plante1 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+}
+.plante2 {
+    font-weight: 400;
+    font-size: 20px;
+}
+.plante3 {
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.plante4 {
+    font-weight: 700;
+    font-size: 30px;
+    margin: 50px 0px 25px 0px;
+}
+.t2 {
+    font-weight: 800;
+    font-size: 30px;
+}
+.t3 {
+    font-weight: 800;
+    font-size: 38px;
+    margin-top: 160px;
+    position: relative;
+    z-index: 2;
+}
+.form1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e3d9d0;
+    z-index: 0;
+}
+.wpcf7-submit {
+    margin-top: 15px;
+    margin-left: 55px;
+    width: 198px;
+    height: 55px;
+    background-color: #DC9F96;
+    color: #fff;
+    border-radius: 5px 5px 5px 5px;
+    border: #DC9F96 1px solid;
+    box-shadow: none;
+    text-decoration: none;
+    font-size: 1.125em;
+}
+
+.wpcf7-text {
+    border: 1px solid white;
+    border-radius: 7px;
+    width: 383px;
+    height: 71px;
+    margin: 15px 0px 15px 0px; 
+}
+.wpcf7-textarea {
+    border-radius: 7px;
+    margin: 5px 0px 5px 0px;
+    width: 383px;
+    height: 237px;
+    margin: 5px 0px 5px 0px;
+}
+.cannete {
+    background-color: #e3d9d0;
+}
+.profession {
+    margin-top: 10px;
+}
+.profession2 {
+    margin-top: 50px;
+}
+.équipe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.compteur   {
+    width: 96px;
+    height: 56px; 
+}
+.bouton2 {
+    padding-top: 10px; 
+}
+.wpcf7-submit {
+    background-color: #E0B9B4;
+    margin-right: 25px;
+}
+.wp-block-separator {
+    margin-bottom: 20px;  
+}
+.ensemble {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 800px;
+}
+.ensemble2 { 
+    margin-left: 132px;
+    margin-right: 132px;
+}
+.fleur1 {
+    position: absolute;
+    padding-left: 200px;
+    padding-top: 35px;
+}
+.wp-image-325 {
+    position: absolute;
+    right: 20px;
+    top: 91%;
+}
+.formulaire {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;    
+}
+.formulaire2 {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+.formulaire3 {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+.barre {
+    content: '';
+    width: 1px;
+    background-color: white;
+    margin: 0 40px 0px 40px ;
+}
+.titre {
+    font-weight: 700;
+    font-size: 30px;
+    color: white;
+    padding-bottom: 15px;
+}
+.bouton3 {
+    display: flex;
+    justify-content: center;
+}
+.formtitre {
+    padding: 5px 0px 15px 0px;
+}
+.admin {
+    text-decoration: none;
+    padding-right: 35px;
+    padding-left: 15px;
+}
+main header {
+    display: none;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+    body {
+        width: 1024px;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    } 
+
+    .groupefruit {
+        display: flex;
+        flex-direction: column;
+}
+    .wp-image-363 {
+        position: relative;
+        bottom: 150px;
+}
+    .wp-image-325 {
+        display: none;
+}
+    .groupe1 {
+    justify-content: left;
+   }
+   .plante1, .titre {
+    text-align: center;
+    margin-bottom: 10px;
+   }
+   .wp-block-image .alignright, .wp-block-image .alignleft {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    }
+    .wp-image-422 {
+        position: absolute;
+        left: 15%;
+        top: 5%;
+    }
+
+}
+
+@media only screen and (max-width: 767px){  
+ 
+        html, body {
+            width: 100%;
+            overflow-x: hidden;
+            } 
+
+            .header_position {
+                flex-direction: column;
+                gap: 20px;
+            }
+        
+            .menu-header-container {
+                width: 100%;
+            }
+        
+            .menu-item {
+                flex-basis: 50%;
+            }
+        
+            .menu .menu-item-11 {
+                padding-left: 20px;
+            }
+            h2.has-background {
+                overflow-wrap: break-word;
+                padding: 20px;
+            }
+            .ensemble2 {
+                margin: 0 40px;
+            }
+            .wp-block-image .alignright, .wp-block-image .alignleft {
+                float: none;
+                margin-left: auto;
+                margin-right: auto;
+                }
+
+        .groupefruit {
+            display: flex;
+            flex-direction: column;
+    }
+        .wp-image-363 {
+            position: relative;
+            bottom: 150px;
+            
+        }
+        .wp-image-325 {
+            display: none;
+        }
+        .formulaire {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .ensemble {
+            margin: 0px;
+        }
+       .groupe1 {
+        justify-content: center;
+       }
+       .plante1, .titre {
+        text-align: center;
+        margin-bottom: 10px;
+       }
+       .formulaire2, .formulaire3 {
+        text-align: center;
+       }
+       .logo {
+        margin-right: 15px;
+       }
+       .t1 {
+        font-weight: 400;
+       }
+       .wp-image-422 {
+        position: absolute;
+        left: 0%;
+        top: 15%;
+    }
+    .wp-container-1 {
+        height: 400px;
+    }
+    .wpcf7-textarea {
+        border-radius: 7px;
+        margin: 5px 0px 5px 0px;
+        width: 300px;
+        height: 237px;
+        margin: 5px 0px 5px 0px;
+    }
+    .wpcf7-text {
+        border: 1px solid white;
+        border-radius: 7px;
+        width: 300px;
+        height: 71px;
+        margin: 15px 0px 15px 0px; 
+    }
+    .t3 {
+        font-weight: 700;
+    }
+    }
+
