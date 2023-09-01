@@ -416,5 +416,9 @@ main header {
     .t3 {
         font-weight: 700;
     }
+    .menu {
+        display: flex;
+        justify-content: center;
+    }
     }
 
