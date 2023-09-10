@@ -121,10 +121,10 @@
     font-weight: 800;
     font-size: 38px;
 }
-.plante1 {
+.plante {
     text-align: center;
-    font-weight: 700;
-    font-size: 30px;
+    font-weight: 800;
+    font-size: 36px;
 }
 .plante2 {
     font-weight: 400;
@@ -140,6 +140,11 @@
     font-weight: 700;
     font-size: 30px;
     margin: 50px 0px 25px 0px;
+}
+.plante5 {
+    font-weight: 700;
+    font-size: 30px;
+    margin: 25px 0px 25px 0px;
 }
 .t2 {
     font-weight: 800;
@@ -232,7 +237,7 @@
 .wp-image-325 {
     position: absolute;
     right: 20px;
-    top: 91%;
+    top: 79%;
 }
 .formulaire {
     display: flex;
@@ -251,9 +256,11 @@
 }
 .barre {
     content: '';
-    width: 1px;
+    width: 2px;
     background-color: white;
     margin: 0 40px 0px 40px ;
+    border: 1px solid white;
+    opacity: 75%;
 }
 .titre {
     font-weight: 700;
@@ -276,6 +283,78 @@
 main header {
     display: none;
 }
+
+.wpcf7-number {
+    display: flex;
+    align-items: center;
+    color: black;
+    padding-left: 10px;
+    size: 16px;
+}
+.wpcf7-number {
+    height: 51px;
+    width: 51px;
+    border: none;
+    border-radius: 8px 0px 0px 8px;
+    margin-top: 5px;
+}
+input[type="number"] {
+    outline: none;
+  }
+/* Ajouter les boutons "+" et "-" à côté de la zone de texte */
+.wpcf7 .custom-quantity-input {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    margin-top: 4px;
+}
+.minus {
+    padding: 0px 0px 0px 11px;
+    position: absolute;
+    top: 42.5%;
+
+}
+.plus {
+    padding: 2px 0px 1px 11px;
+}
+.wpcf7 .custom-quantity-input .quantity-text {
+    flex: 1;
+    padding-left: 18px; 
+    border: none; 
+    font-size: 16px;
+    font-weight: 400;
+    font-family: inter;
+}
+.wpcf7 .custom-quantity-input .quantity-button {
+    background-color: #DC9F96;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+   /* padding: 5px 0px 4px 10px;  Ajustez selon vos besoins */
+}
+.inpoutbouton {
+    background-color: #DC9F96;
+    width: 28px;
+    height: 51px;
+    border-radius: 0px 8px 8px 0px;
+    margin-top: 5px;    
+}
+.wp-block-separator {
+    margin-top: 20px;
+}
+.ligne-separation {
+    position: relative;
+    min-height: 1px;
+    margin-top: 5px;
+    border: none;
+    background-color: white;
+}
+
+  
+
+
+
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
 
@@ -314,6 +393,18 @@ main header {
         left: 15%;
         top: 5%;
     }
+    .groupe1 {
+        justify-content: center;
+        margin-left: 37px;
+    }
+    .plante5 {
+        display: flex;
+        justify-content: center;
+       }
+       .minus{
+        position: relative;
+        top: -21.5px;
+       }
 
 }
 
@@ -377,10 +468,16 @@ main header {
         }
        .groupe1 {
         justify-content: center;
+        margin-left: 37px;
        }
-       .plante1, .titre {
+       .plante {
         text-align: center;
         margin-bottom: 10px;
+        font-weight: 400;
+       }
+       .plante5 {
+        display: flex;
+        justify-content: center;
        }
        .formulaire2, .formulaire3 {
         text-align: center;
@@ -419,6 +516,17 @@ main header {
     .menu {
         display: flex;
         justify-content: center;
+    }
+    .barre {
+        display: none;
+    }
+    .minus{
+        position: relative;
+        top: -21.5px;
+    }
+    .wp-block-button__link {
+        position: relative;
+        right: 12px;
     }
     }
 
