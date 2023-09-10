@@ -289,7 +289,6 @@ main header {
     align-items: center;
     color: black;
     padding-left: 10px;
-    size: 16px;
 }
 .wpcf7-number {
     height: 51px;
@@ -311,8 +310,8 @@ input[type="number"] {
 }
 .minus {
     padding: 0px 0px 0px 11px;
-    position: absolute;
-    top: 42.5%;
+    position: relative;
+    bottom: 18px;
 
 }
 .plus {
@@ -403,7 +402,7 @@ input[type="number"] {
        }
        .minus{
         position: relative;
-        top: -21.5px;
+        bottom: 18px;
        }
 
 }
@@ -522,7 +521,7 @@ input[type="number"] {
     }
     .minus{
         position: relative;
-        top: -21.5px;
+        bottom: 18px;
     }
     .wp-block-button__link {
         position: relative;
